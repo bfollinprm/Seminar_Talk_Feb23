@@ -38,7 +38,7 @@ def get_data():
     sne_start = 40
     sne_end = 59
     sne_lines = arange(sne_start,sne_end)
-    sne = pd.DataFrame(columns = ['Host', 'sne', 'm^B_0', 'err'], index = arange(sne_end - sne_start))
+    sne = pd.DataFrame(columns = ['Host', 'sne', 'm^B_0', 'SN_err'], index = arange(sne_end - sne_start))
     ceph_start = 70
     ceph_end = 2346
     cepheid_lines = arange(ceph_start,ceph_end)
